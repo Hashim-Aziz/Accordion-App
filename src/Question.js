@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 
 const Question = ({ title, info }) => {
-  const [showInfo, setShowInfo] = useState(false);
+  const [showInfo, setShowInfo] = useState(false); // use for toggle show info functionality
   return (
     <article className="question">
       <header>
